@@ -73,6 +73,31 @@ input, select, textarea {
 }
 
 /* Basic */
+.skills-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: inherit;
+	height: inherit;
+	flex-wrap: wrap;
+}
+
+i {
+	font-size: 70px;
+}
+
+.tools {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 1rem;
+}
+
+.tools:hover {
+	color: #0877ff;
+}
 
 	html {
 		box-sizing: border-box;
