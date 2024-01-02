@@ -142,7 +142,7 @@ a:hover {
   transform: none;
 }
 
-section {
+.section {
   padding-top: 20vh;
   height: 96vh;
   margin: 0 10rem;
@@ -452,11 +452,11 @@ article {
   .arrow {
     display: none;
   }
-  section,
+  .section,
   .section-container {
     height: fit-content;
   }
-  section {
+  .section {
     margin: 0 5%;
   }
   .section__pic-container {
